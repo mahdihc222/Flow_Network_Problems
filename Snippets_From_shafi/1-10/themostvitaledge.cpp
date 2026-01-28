@@ -4,7 +4,6 @@ Question:
 Given a flow network, find the specific edge (u, v) such that removing it 
 results in the minimum possible max flow (i.e., causes the biggest drop in flow).
 Print the edge and the new reduced flow value.
-
 EXPLANATION:
 1. First, calculate the initial Max Flow of the original graph.
 2. Identify all edges that carry flow (edges where residual capacity < original capacity). 
